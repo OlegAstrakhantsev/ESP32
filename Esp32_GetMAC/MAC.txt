@@ -1,0 +1,4 @@
+24:62:AB:FC:7E:08	-	динамик Reciver
+
+A4:CF:12:8A:21:B0	-	микрофон Transmitter
+
