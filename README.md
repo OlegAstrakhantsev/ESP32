@@ -20,9 +20,9 @@ ESP32 - Max98357(speaker)
  		SD(NC)
 
 # TODO
--> Combining code into a transceiver 
--> Add: PTT button 
--> Add: Online subscriber detection
--> Add: Audio stream compression
--> Add: Switching to sleep mode if there is no subscriber
--> Add: Repeater mode    
+1. Combining code into a transceiver 
+2. Add: PTT button 
+3. Add: Online subscriber detection
+4. Add: Audio stream compression
+5. Add: Switching to sleep mode if there is no subscriber
+6. Add: Repeater mode    
