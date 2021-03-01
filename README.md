@@ -5,21 +5,21 @@ First, it was necessary to check the ability to transmit sound between two esp32
 
 Mic -- i2s --> Esp32(transmit) ------ wifi -----> Esp32(recive) -- i2s --> Speaker
 
-# Connection:
+## Connection:
 ESP32 - INMP441(mic)
- IO14 - SCK
- IO15 - WS
- IO32 - SD
- 		L/R(NC)
+* IO14 - SCK
+* IO15 - WS
+* IO32 - SD
+*       L/R(NC)
 
 ESP32 - Max98357(speaker)
- IO26 - BCLK
- IO25 - LRC
- IO22 - DIN
- 		GAIN(NC)
- 		SD(NC)
+* IO26 - BCLK
+* IO25 - LRC
+* IO22 - DIN
+* 		GAIN(NC)
+* 		SD(NC)
 
-# TODO
+## TODO:
 1. Combining code into a transceiver 
 2. Add: PTT button 
 3. Add: Online subscriber detection
